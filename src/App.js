@@ -1,13 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './Navbar';
+import Home from './Home';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Marove</h1>
-      </header>
+    <Router>
+    <Navbar />
+    <div>
+      <Routes>
+        <Route exact path='/' element={< Home />}></Route>
+      </Routes>
     </div>
+    </Router>
   );
 }
 
