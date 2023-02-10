@@ -1,5 +1,6 @@
 import Navbar from './Navbar';
 import Home from './Home';
+import Contact from './Contact';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div>
       <Routes>
         <Route exact path='/' element={< Home />}></Route>
+        <Route exact path='/' element={< Contact />}></Route>
       </Routes>
     </div>
     </Router>
