@@ -1,7 +1,7 @@
 const Navbar = () => {
     return ( 
         <div>
-            <h2>Soft quotes</h2>
+            <h2>Soft quotes here</h2>
         </div>
      );
 }
