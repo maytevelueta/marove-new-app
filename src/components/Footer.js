@@ -1,7 +1,7 @@
 const Footer = () => {
     return ( 
         <div>
-            <p>Follow us</p>
+            <p>Follow us!</p>
         </div>
      );
 }
